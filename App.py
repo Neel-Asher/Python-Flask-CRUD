@@ -7,9 +7,6 @@ app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'flask_crud'
-app.config['MYSQL_SSL_MODE'] = 'DISABLED' 
-app.config['MYSQL_SSL_MODE'] = 'REQUIRED'  # or 'PREFERRED'
-app.config['MYSQL_SSL_CA'] = '/path/to/ca-cert.pem'
 
 mysql = MySQL(app)
 
